@@ -1,7 +1,7 @@
 # Nodos-ROS-y-Comunicaci-n-Arduino
 ==============
 
-##Introducción
+## Introducción
 
 *Este proyecto consiste en el control de un servomotor en función de 3 datos (un booleano, un entero y un flotante) de entrada que son enviados por el arduino a través de 3 tópics diferentes y siendo estos recibidos por los nodos de ROS creados que se encargarán de procesar esta información con un control difuso y un árbol de decisión, por lo que habrán ciertas funciones de pertenencia para definir cuál es el porcentaje de pertenencia de los datos una clase (alto, medio, bajo); Dependiendo de las clases a las que pertenezcan los 3 datos, se envía un cierto valor de grados al arduino y que asía sea controlado el servo*
 
@@ -9,7 +9,7 @@
 
 *-------------------------------------------------------------------------------------------------------------------------------------------------------*
 
-##Nodos
+## Nodos
 
 **NODO "talker_3d.cpp":**
 *Este nodo se encarga de recibir los tres datos del arduino (bool, int, float) por tres diferentes topics y volverlos a enviar por un topic diferente cada uno para que el nodo al que corresponda cada uno lo reciba.*
@@ -50,17 +50,17 @@
 
 *-------------------------------------------------------------------------------------------------------------------------------------------------------*
 
-##Implementación
+## Implementación
 
 *--------------------------------*
 
-###Para el nodo de arduino:
+### Para el nodo de arduino:
 
 <https://biorobotics.fi-p.unam.mx/wp-content/uploads/Courses/contrucci%C3%B3n_de_robots_moviles/2017-1/practicas/prac03.pdf>
 
 *--------------------------------*
 
-###Descargar Paquete:
+### Descargar Paquete:
 
 *1. El paquete debe descargarse dentro de un workspace; por ejemplo: "/home/workspace/src/paquete_pkg"*
 
@@ -87,7 +87,7 @@ $ catkin_make
 ```
 *--------------------------------*
 
-###Ejecución:
+### Ejecución:
 
 1. *En una ventana del terminal inicializamos roscore:*
 
