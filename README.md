@@ -1,4 +1,4 @@
-# Nodos-ROS-y-Comunicaci-n-Arduino
+# Nodos ROS y Comunicación Arduino
 ============================================================================================
 
 ## Introducción
