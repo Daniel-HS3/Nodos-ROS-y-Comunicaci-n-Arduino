@@ -72,7 +72,7 @@ $ cd # nos dirigimos a home
 $ sudo gedit .bashrc # con esto abrimos el archivo ".bashrc" para editarlo
 ```
 
-- *Al final del archivo .bashrc agregamos la siguiente linea:*
+- *Al final del archivo .bashrc agregamos la siguiente linea para que el directorio sea agregado:*
 
 ```
 source ~/workspace/devel/setup.bash
