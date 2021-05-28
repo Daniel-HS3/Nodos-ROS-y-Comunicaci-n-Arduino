@@ -3,7 +3,7 @@
 
 ## Introducción
 
-*Este proyecto consiste en el control de un servomotor en función de 3 datos (un booleano, un entero y un flotante) de entrada que son enviados por el arduino a través de 3 tópics diferentes y siendo estos recibidos por los nodos de ROS creados que se encargarán de procesar esta información con un control difuso y un árbol de decisión, por lo que habrán ciertas funciones de pertenencia para definir cuál es el porcentaje de pertenencia de los datos una clase (alto, medio, bajo); Dependiendo de las clases a las que pertenezcan los 3 datos, se envía un cierto valor de grados al arduino y que asía sea controlado el servo*
+*Este proyecto consiste en el control de un servomotor en función de 3 datos (un booleano, un entero y un flotante) de entrada que son enviados por un arduino a través de 3 tópics diferentes y siendo estos recibidos por los nodos de ROS creados que se encargarán de procesar esta información con un control difuso y un árbol de decisión, por lo que habrán ciertas funciones de pertenencia para definir cuál es el porcentaje de pertenencia de los datos una clase (alto, medio, bajo); Dependiendo de las clases a las que pertenezcan los 3 datos, se envía un cierto valor de grados al arduino y que asía sea controlado el servo*
 
 ![alt text](https://github.com/Daniel-HS3/Nodos-ROS-y-Comunicaci-n-Arduino/blob/dcf73b7f1c697c23026679bbdcc199a3630fa927/Im%C3%A1genes%20-%20Nodos%20ROS/Diagrama%20nodos.jpeg)
 
